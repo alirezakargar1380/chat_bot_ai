@@ -78,6 +78,39 @@
                 "Here are your stocks!"
             ],
             "context_set": ""
+        },
+        {
+            "tag": "multiply by 2",
+            "patterns": [
+                "i",
+                "i want",
+                "calculate",
+                "two",
+                "*",
+                "2",
+                "2 * 2",
+                "2 * two",
+                "two * two",
+                "two * 2"
+            ],
+            "responses": [
+                "4"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "multiply by 4",
+            "patterns": [
+                "two",
+                "*",
+                "four",
+                "2",
+                "4"
+            ],
+            "responses": [
+                "8"
+            ],
+            "context_set": ""
         }
     ]
 }
