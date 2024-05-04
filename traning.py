@@ -98,6 +98,6 @@ hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5,
 # Export the model to a HDF5 file
 # model.save('chatbotmodel.h5') # works
 
-model.save('chatbotmodel.keras')
+model.save('chatbotmodel.keras', hist)
 
 print("Done")
